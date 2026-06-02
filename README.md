@@ -38,7 +38,7 @@ https://8thwall.org/studio-image-targets-example
 2. On this repository, click Code > Download zip
 3. Unzip the folder to the location you'd like to work in
 4. In the desktop app, click "Open" and select the folder
-5. To connect to a mobile device, follow [these instructions](https://8th.io/test-on-mobile)
+5. To connect to a mobile device, follow [these instructions](https://8th.io/connect-device)
 6. When importing your own targets, please see [this guide](https://8thwall.org/docs/studio/guides/xr/image-targets) for more information
 7. Recommended: Track your files using [git](https://git-scm.com/about) to avoid losing progress
 
