@@ -1,7 +1,7 @@
 const onxrloaded = () => {
   XR8.XrController.configure({
     imageTargetData: [
-      require('../image-targets/ARMarker/NC.json'),
+      require('../image-targets/NC.json'),
     ],
   })
   XR8.addCameraPipelineModule(LandingPage.pipelineModule())
