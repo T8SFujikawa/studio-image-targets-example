@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/NC_luminance.png",
+  "metadata": null,
+  "name": "NC",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 74,
+    "width": 571,
+    "height": 761,
+    "isRotated": false,
+    "originalWidth": 571,
+    "originalHeight": 909
+  },
+  "resources": {
+    "originalImage": "NC_original.png",
+    "croppedImage": "NC_cropped.png",
+    "thumbnailImage": "NC_thumbnail.png",
+    "luminanceImage": "NC_luminance.png"
+  },
+  "created": 1781081602136,
+  "updated": 1781081602136
+}
