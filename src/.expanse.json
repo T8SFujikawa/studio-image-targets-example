@@ -2293,9 +2293,6 @@
       "id": "585f02ca-0418-46b7-8317-8926be71e007",
       "name": "Toggle SLAM",
       "activeCamera": "17d4e695-a04f-4b93-b0e2-a3b783b8a937",
-      "includedSpaces": [
-        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
-      ],
       "reflections": {
         "type": "url",
         "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
