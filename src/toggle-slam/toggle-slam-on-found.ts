@@ -33,9 +33,19 @@ ecs.registerComponent({
 
           // console.log(e.data)
           world.setScale(worldContent, scale, scale, scale)
-          // world.setQuaternion(worldContent, rotation.x, rotation.y, rotation.z, rotation.w)
+          world.setQuaternion(worldContent, rotation.x, rotation.y, rotation.z, rotation.w)
           world.setPosition(worldContent, position.x, position.y, position.z)
           ecs.Hidden.remove(world, worldContent)
+        }
+      })
+      .listen(world.events.globalId, 'reality.imageupdated', (e) => {
+        const {name, position, rotation, scale} = e.data as any
+        const {imageTargetName, worldContent} = schemaAttribute.get(eid)
+
+        if (name === imageTargetName) {
+          world.setScale(worldContent, scale, scale, scale)
+          world.setQuaternion(worldContent, rotation.x, rotation.y, rotation.z, rotation.w)
+          world.setPosition(worldContent, position.x, position.y, position.z)
         }
       })
   },
