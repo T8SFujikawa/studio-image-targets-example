@@ -89,7 +89,7 @@
       "id": "91576797-b198-4057-89f6-e37f24fbb359",
       "position": [0, 0, 0],
       "rotation": [0.7071, 0, 0, 0.7071],
-      "scale": [0.1, 0.1, 0.1],
+      "scale": [0.15, 0.15, 0.15],
       "geometry": null,
       "material": null,
       "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
