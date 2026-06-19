@@ -105,28 +105,29 @@
       "name": "MeishiBox",
       "order": 0.03
     },
-      "occluder-0001": {
-      "id": "occluder-0001",
-      "position": [0, 0, 0],
-      "rotation": [0.7071, 0, 0, 0.7071],
-      "scale": [0.2, 0.2, 0.2],
-      "geometry": null,
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/meishi-box/MeishiOcluBox.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Occluder",
-      "order": -1
-    }
+    "occluder-0001": {
+          "id": "occluder-0001",
+          "position": [0, 0, 0],
+          "rotation": [0.7071, 0, 0, 0.7071],
+          "scale": [0.2, 0.2, 0.2],
+          "geometry": null,
+          "material": null,
+          "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
+          "components": {},
+          "gltfModel": {
+            "src": {
+              "type": "asset",
+              "asset": "assets/meishi-box/MeishiOcluBox.glb"
+            },
+            "animationClip": "",
+            "loop": true,
+            "materialOverride": {
+              "type": "hider"
+            }
+          },
+          "name": "Occluder",
+          "order": -1
+        }
   },
   "spaces": {
     "585f02ca-0418-46b7-8317-8926be71e007": {
