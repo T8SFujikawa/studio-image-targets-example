@@ -104,9 +104,8 @@
       },
       "name": "MeishiBox",
       "order": 0.03
-    }
-  },    
-  "occluder-0001": {
+    },
+      "occluder-0001": {
       "id": "occluder-0001",
       "position": [0, 0, 0],
       "rotation": [0.7071, 0, 0, 0.7071],
@@ -128,6 +127,7 @@
       "name": "Occluder",
       "order": -1
     },
+  },
   "spaces": {
     "585f02ca-0418-46b7-8317-8926be71e007": {
       "id": "585f02ca-0418-46b7-8317-8926be71e007",
