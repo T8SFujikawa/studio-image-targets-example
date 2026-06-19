@@ -88,7 +88,7 @@
     "91576797-b198-4057-89f6-e37f24fbb359": {
       "id": "91576797-b198-4057-89f6-e37f24fbb359",
       "position": [0, 0, 0],
-      "rotation": [0, 90, 0, 1],
+      "rotation": [0, 0, 0, 1],
       "scale": [0.01, 0.01, 0.01],
       "geometry": null,
       "material": null,
