@@ -16,9 +16,9 @@ ecs.registerComponent({
       .onEnter(() => {
         const {worldContent} = schemaAttribute.get(eid)
 
-        ecs.Camera.mutate(world, world.camera.getActiveEid(), (c) => {
-          c.disableWorldTracking = true
-        })
+        // ecs.Camera.mutate(world, world.camera.getActiveEid(), (c) => {
+        //   c.disableWorldTracking = true
+        // })
 
         ecs.Hidden.set(world, worldContent)
       })
