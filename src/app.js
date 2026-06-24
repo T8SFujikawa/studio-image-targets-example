@@ -1,4 +1,4 @@
-require('./water-shader')
+//require('./water-shader')
 
 const onxrloaded = () => {
   XR8.XrController.configure({
