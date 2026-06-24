@@ -8,4 +8,4 @@ const onxrloaded = () => {
 }
 window.XR8 ? onxrloaded() : window.addEventListener('xrloaded', onxrloaded)
 
-require('./water-shader')
+//require('./water-shader')
