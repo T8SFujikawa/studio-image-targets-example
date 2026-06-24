@@ -131,7 +131,7 @@
       "id": "water-plane-0001",
       "position": [0, 0.01, 0],
       "rotation": [0, 0, 0, 1],
-      "scale": [0.2, 0.2, 0.2],
+      "scale": [1, 1, 1],
       "geometry": {
         "type": "plane",
         "width": 1,
@@ -143,6 +143,11 @@
 },
       "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
       "components": {
+      "water-shader-comp": {
+      "id": "water-shader-comp",
+      "name": "water-shader",
+      "parameters": {}
+    }
       },
       "name": "Water Plane",
       "order": 1
