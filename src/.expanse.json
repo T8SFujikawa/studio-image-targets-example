@@ -128,6 +128,28 @@
             "order": -1
           }
   },
+  "water-plane-0001": {
+      "id": "water-plane-0001",
+      "position": [0, 0.01, 0],
+      "rotation": [0.7071, 0, 0, 0.7071],
+      "scale": [0.2, 0.2, 0.2],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.6
+      },
+      "material": null,
+      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
+      "components": {
+        "water-shader-comp": {
+          "id": "water-shader-comp",
+          "name": "water-shader",
+          "parameters": {}
+        }
+      },
+      "name": "Water Plane",
+      "order": 1
+    },
   "spaces": {
     "585f02ca-0418-46b7-8317-8926be71e007": {
       "id": "585f02ca-0418-46b7-8317-8926be71e007",
