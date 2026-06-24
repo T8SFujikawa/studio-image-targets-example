@@ -1,3 +1,5 @@
+require('./water-shader')
+
 const onxrloaded = () => {
   XR8.XrController.configure({
     imageTargetData: [
