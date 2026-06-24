@@ -138,7 +138,7 @@
         "height": 0.6
       },
       "material": {
-  "type": "standard",
+  "type": "unlit",
   "color": "#ff0000"
 },
       "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
