@@ -130,7 +130,7 @@
             "water-plane-0001": {
       "id": "water-plane-0001",
       "position": [0, -0.05, 0],
-      "rotation": [0, 0.7071, 0, 0.7071],
+      "rotation": [0, 0, 0.7071, 0.7071],
       "scale": [1, 1, 1],
       "geometry": {
         "type": "plane",
