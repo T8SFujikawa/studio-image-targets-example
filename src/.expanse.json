@@ -189,7 +189,8 @@
         "loop": true
       },
       "name": "MeishiBox",
-      "order": 0.03
+      "order": 0.03,
+      "disabled": true
     },
     "occluder-0001": {
       "id": "occluder-0001",
@@ -224,7 +225,8 @@
         "loop": true
       },
       "name": "Occluder",
-      "order": -1
+      "order": -1,
+      "disabled": true
     },
     "water-plane-0001": {
       "id": "water-plane-0001",
@@ -262,7 +264,46 @@
         }
       },
       "name": "Water Plane",
-      "order": 1
+      "order": 1,
+      "disabled": true
+    },
+    "887fa455-17ac-48e2-a469-08c83f99a489": {
+      "id": "887fa455-17ac-48e2-a469-08c83f99a489",
+      "position": [
+        0,
+        0.7687349947600799,
+        0.28586397355834636
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a8cbc97b-22c9-4a0e-90b8-dcce361d0c44",
+      "components": {
+        "8351ffc2-389e-4d72-b8bb-835d4e25ce8a": {
+          "id": "8351ffc2-389e-4d72-b8bb-835d4e25ce8a",
+          "name": "firestore-count-display"
+        }
+      },
+      "ui": {
+        "width": 70,
+        "height": 10,
+        "text": "Sample Text",
+        "color": "#ffffff",
+        "fontSize": 12,
+        "type": "3d"
+      },
+      "name": "テキスト",
+      "order": 2.9799652965653785
     }
   },
   "spaces": {
